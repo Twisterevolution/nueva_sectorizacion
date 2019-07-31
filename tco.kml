@@ -722,6 +722,7 @@
 	</Style>
 	<Folder>
 		<name>Poli</name>
+		<open>1</open>
 		<Placemark>
 			<name>1.1</name>
 			<LookAt>
@@ -1015,7 +1016,8 @@
 		</Placemark>
 		<Placemark>
 			<name>4xa</name>
-			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<description>B4, B7, B3,  B1, B2</description>
+			<styleUrl>#msn_ylw-pushpin12</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1227,7 +1229,8 @@
 		</Placemark>
 		<Placemark>
 			<name>7.1</name>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<description>B7, B3, B12, B2, B1, B4</description>
+			<styleUrl>#msn_ylw-pushpin12</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1255,7 +1258,8 @@
 		</Placemark>
 		<Placemark>
 			<name>7.3</name>
-			<styleUrl>#msn_ylw-pushpin9</styleUrl>
+			<description>B7, B4, B3, B1, B2, B5</description>
+			<styleUrl>#msn_ylw-pushpin12</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
