@@ -10,12 +10,25 @@
 	</style>
 
 	<title>mapas</title>
-	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script> 
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+	<!-- <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>  -->
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+	<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" /> -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="./L.KML.js"></script>
 </head>
 <body>
-	<div id = 'map'>
+	<div id = 'map' >
+	</div>
+	
+	<div>
+		
+		<button class="btn btn-primary " onclick="ver()">VER SECTORES Y SUB DIVICIONES</button>
+		<button class="btn btn-success" onclick="ver2()">VER MACRO-SECTORES DE COMPANIAS </button>
 	</div>
 </body>
 <footer>
@@ -23,27 +36,78 @@
   /*var map = L.map('map').
      setView([-38.73, -72.59],
      13);*/
-
-
-
-const map = new L.Map('map', { center: new L.LatLng(-38.73, -72.59), zoom: 13 });
+//const map = new L.Map('map', { center: new L.LatLng(-38.73, -72.59), minZoom: 11});
+const map = L.map('map').setView([-38.73, -72.59], 12);
 const osm = new L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 map.addLayer(osm);
 
+var track;
+var track2;
+var parser = new DOMParser();
 
-            fetch('./tco.kml')
-                .then(res => res.text())
-                .then(kmltext => {
+			fetch('./tco.kml')
+               .then(res => res.text())
+               .then(kmltext => {
                     // Create new kml overlay
-                    const parser = new DOMParser();
-                    const kml = parser.parseFromString(kmltext, 'text/xml');
-                    const track = new L.KML(kml);
-                    map.addLayer(track);
+                    
+                    var kml = parser.parseFromString(kmltext, 'text/xml');
+                    track = new L.KML(kml);
+                    //map.addLayer(track);
 
                     // Adjust map to show the kml
-                    const bounds = track.getBounds();
-                    map.fitBounds(bounds);
-                });
+                    //const bounds = track.getBounds();
+                    //map.fitBounds(bounds);
+               });
+
+            fetch('./tco2.kml')
+               .then(res2 => res2.text())
+               .then(kmltext2 => {
+                    // Create new kml overlay
+                    
+                    var kml2 = parser.parseFromString(kmltext2, 'text/xml');
+                    track2 = new L.KML(kml2);
+                    //map.addLayer(track);
+
+                    // Adjust map to show the kml
+                    //const bounds = track.getBounds();
+                    //map.fitBounds(bounds);
+               });
+
+
+
+
+function ver() {
+	map.addLayer(track)
+	map.removeLayer(track2);
+	
+}
+function ver2() {
+	
+	map.removeLayer(track);
+	map.addLayer(track2)
+}
+
+
+
+
+
+
+            
+
+
+
+
+	/*var mapa = document.getElementById('map');
+	
+	if (mapa.style.display === "none") {
+		mapa.style.display = "block";
+		
+	} else {
+		mapa.style.display = "none";
+		
+	}*/
+	
+
 
 
 
@@ -60,12 +124,12 @@ marker.bindPopup("<b>Prueba de marcar </b><br>emergente.");
 
 var popup = L.popup();*/
 
-function onMapClick(e) {
+/*function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
         .setContent("You clicked the map at " + e.latlng.toString())
         .openOn(mymap);
-}
+}*/
 
 //mymap.on('click', onMapClick);
 
