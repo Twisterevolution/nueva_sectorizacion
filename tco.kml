@@ -1860,6 +1860,7 @@
 	</Style>
 	<Folder>
 		<name>Nuevos sectores</name>
+		<open>1</open>
 		<Placemark>
 			<name>1.1</name>
 			<description>B1, B4 ,BX4, B3, BR3, B2, B5
@@ -2735,6 +2736,7 @@
 		</Placemark>
 		<Placemark>
 			<name>1.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.59791564403956</longitude>
 				<latitude>-38.74748930538369</latitude>
@@ -2752,6 +2754,7 @@
 		</Placemark>
 		<Placemark>
 			<name>1.2</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.59846947630874</longitude>
 				<latitude>-38.74323403318257</latitude>
@@ -2769,6 +2772,7 @@
 		</Placemark>
 		<Placemark>
 			<name>1.3</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.59693927207489</longitude>
 				<latitude>-38.73937474739569</latitude>
@@ -2786,6 +2790,7 @@
 		</Placemark>
 		<Placemark>
 			<name>1.4</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.59168110149865</longitude>
 				<latitude>-38.74249524196447</latitude>
@@ -2803,6 +2808,7 @@
 		</Placemark>
 		<Placemark>
 			<name>1.5</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.58535505164718</longitude>
 				<latitude>-38.74027825916395</latitude>
@@ -2820,6 +2826,7 @@
 		</Placemark>
 		<Placemark>
 			<name>1.6</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.58275972527467</longitude>
 				<latitude>-38.74693896180741</latitude>
@@ -2837,6 +2844,7 @@
 		</Placemark>
 		<Placemark>
 			<name>1.7</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.57922413965785</longitude>
 				<latitude>-38.74259947046465</latitude>
@@ -2854,6 +2862,7 @@
 		</Placemark>
 		<Placemark>
 			<name>2.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.59206769296115</longitude>
 				<latitude>-38.73230277503053</latitude>
@@ -2871,6 +2880,7 @@
 		</Placemark>
 		<Placemark>
 			<name>2.2</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.58480865294918</longitude>
 				<latitude>-38.73171629894727</latitude>
@@ -2888,6 +2898,7 @@
 		</Placemark>
 		<Placemark>
 			<name>2.3</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.58815856901599</longitude>
 				<latitude>-38.73570481627374</latitude>
@@ -2905,6 +2916,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.61338946484378</longitude>
 				<latitude>-38.7154952200085</latitude>
@@ -2922,6 +2934,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3.2</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.61317663804344</longitude>
 				<latitude>-38.73970658863695</latitude>
@@ -2939,6 +2952,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3.3</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.60568349692318</longitude>
 				<latitude>-38.73826228753543</latitude>
@@ -2956,6 +2970,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3.4</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.6088294250842</longitude>
 				<latitude>-38.71858215294776</latitude>
@@ -2973,6 +2988,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3.5</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.60552299303089</longitude>
 				<latitude>-38.74158563990829</latitude>
@@ -2990,6 +3006,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3.6</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.59743637412645</longitude>
 				<latitude>-38.73022673612811</latitude>
@@ -3007,6 +3024,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3.7</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.59880598441379</longitude>
 				<latitude>-38.735722722985</latitude>
@@ -3024,6 +3042,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3.8</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.60336548637233</longitude>
 				<latitude>-38.732464823059</latitude>
@@ -3041,6 +3060,7 @@
 		</Placemark>
 		<Placemark>
 			<name>3.9</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.61050281047756</longitude>
 				<latitude>-38.73338820056073</latitude>
@@ -3058,6 +3078,7 @@
 		</Placemark>
 		<Placemark>
 			<name>4.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.61673668094088</longitude>
 				<latitude>-38.74460554114919</latitude>
@@ -3075,6 +3096,7 @@
 		</Placemark>
 		<Placemark>
 			<name>4.2</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.64092939073422</longitude>
 				<latitude>-38.75588522051191</latitude>
@@ -3092,6 +3114,7 @@
 		</Placemark>
 		<Placemark>
 			<name>4.3</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.61507715969951</longitude>
 				<latitude>-38.74291339309929</latitude>
@@ -3109,6 +3132,7 @@
 		</Placemark>
 		<Placemark>
 			<name>4.4</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.67920307748916</longitude>
 				<latitude>-38.7635905309692</latitude>
@@ -3126,6 +3150,7 @@
 		</Placemark>
 		<Placemark>
 			<name>4.5</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.61341246186638</longitude>
 				<latitude>-38.74815305542783</latitude>
@@ -3143,6 +3168,7 @@
 		</Placemark>
 		<Placemark>
 			<name>4.6</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.61679473883368</longitude>
 				<latitude>-38.74853698527133</latitude>
@@ -3160,6 +3186,7 @@
 		</Placemark>
 		<Placemark>
 			<name>4.7</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.66154676503045</longitude>
 				<latitude>-38.74887729489444</latitude>
@@ -3177,6 +3204,7 @@
 		</Placemark>
 		<Placemark>
 			<name>5.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.57765435761398</longitude>
 				<latitude>-38.73087848724953</latitude>
@@ -3194,6 +3222,7 @@
 		</Placemark>
 		<Placemark>
 			<name>5.2</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.56519626986183</longitude>
 				<latitude>-38.72219917989035</latitude>
@@ -3211,6 +3240,7 @@
 		</Placemark>
 		<Placemark>
 			<name>5.3</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.54283710478167</longitude>
 				<latitude>-38.71015074141224</latitude>
@@ -3228,6 +3258,7 @@
 		</Placemark>
 		<Placemark>
 			<name>5.4</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.54849410907029</longitude>
 				<latitude>-38.68961337122212</latitude>
@@ -3245,6 +3276,7 @@
 		</Placemark>
 		<Placemark>
 			<name>6.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.58834811229205</longitude>
 				<latitude>-38.76875472003221</latitude>
@@ -3262,6 +3294,7 @@
 		</Placemark>
 		<Placemark>
 			<name>6.1 - B1 como Q</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.58863190751345</longitude>
 				<latitude>-38.75808573185891</latitude>
@@ -3279,6 +3312,7 @@
 		</Placemark>
 		<Placemark>
 			<name>6.2</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.60528669941584</longitude>
 				<latitude>-38.76770972525807</latitude>
@@ -3296,6 +3330,7 @@
 		</Placemark>
 		<Placemark>
 			<name>6.3</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.71778138305571</longitude>
 				<latitude>-38.84466917038987</latitude>
@@ -3313,6 +3348,7 @@
 		</Placemark>
 		<Placemark>
 			<name>6.7</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.41251954757244</longitude>
 				<latitude>-38.86500564094682</latitude>
@@ -3330,6 +3366,7 @@
 		</Placemark>
 		<Placemark>
 			<name>6.4</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.52400893310862</longitude>
 				<latitude>-38.79721452399613</latitude>
@@ -3347,6 +3384,7 @@
 		</Placemark>
 		<Placemark>
 			<name>7.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.61376181731833</longitude>
 				<latitude>-38.73576948567341</latitude>
@@ -3364,6 +3402,7 @@
 		</Placemark>
 		<Placemark>
 			<name>7.2</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.62420225215126</longitude>
 				<latitude>-38.73871145994229</latitude>
@@ -3381,6 +3420,7 @@
 		</Placemark>
 		<Placemark>
 			<name>7.3</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.63352878258759</longitude>
 				<latitude>-38.7429518409516</latitude>
@@ -3398,6 +3438,7 @@
 		</Placemark>
 		<Placemark>
 			<name>7.4</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.61704911263161</longitude>
 				<latitude>-38.72963367191405</latitude>
@@ -3415,6 +3456,7 @@
 		</Placemark>
 		<Placemark>
 			<name>7.5</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.63932809359935</longitude>
 				<latitude>-38.73137879299226</latitude>
@@ -3432,6 +3474,7 @@
 		</Placemark>
 		<Placemark>
 			<name>8.2</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.55783548413872</longitude>
 				<latitude>-38.74631285258405</latitude>
@@ -3449,6 +3492,7 @@
 		</Placemark>
 		<Placemark>
 			<name>8.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.57321474628294</longitude>
 				<latitude>-38.73502762816796</latitude>
@@ -3466,6 +3510,7 @@
 		</Placemark>
 		<Placemark>
 			<name>8.3</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.54230834580449</longitude>
 				<latitude>-38.72027355404836</latitude>
@@ -3483,6 +3528,7 @@
 		</Placemark>
 		<Placemark>
 			<name>9.1</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.65179683469597</longitude>
 				<latitude>-38.93219312505433</latitude>
@@ -3500,6 +3546,7 @@
 		</Placemark>
 		<Placemark>
 			<name>10.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.75598838869141</longitude>
 				<latitude>-38.75250612556614</latitude>
@@ -3517,6 +3564,7 @@
 		</Placemark>
 		<Placemark>
 			<name>11.1</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.51144365591389</longitude>
 				<latitude>-38.71073501555939</latitude>
@@ -3534,6 +3582,7 @@
 		</Placemark>
 		<Placemark>
 			<name>11.2</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.52974930583432</longitude>
 				<latitude>-38.73616579861439</latitude>
@@ -3551,6 +3600,7 @@
 		</Placemark>
 		<Placemark>
 			<name>12.1</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.65828848953893</longitude>
 				<latitude>-38.71247153499174</latitude>
@@ -3568,6 +3618,7 @@
 		</Placemark>
 		<Placemark>
 			<name>12.2</name>
+			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-72.64120415258498</longitude>
 				<latitude>-38.69286099452076</latitude>
@@ -3585,6 +3636,7 @@
 		</Placemark>
 		<Placemark>
 			<name>12.3</name>
+			<visibility>0</visibility>
 			<open>1</open>
 			<LookAt>
 				<longitude>-72.6937499072336</longitude>
@@ -3603,6 +3655,7 @@
 		</Placemark>
 		<Placemark>
 			<name>13.1</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.58734052818623</longitude>
 				<latitude>-38.71679276850478</latitude>
@@ -3620,6 +3673,7 @@
 		</Placemark>
 		<Placemark>
 			<name>13.2</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.57463711078034</longitude>
 				<latitude>-38.70443832295231</latitude>
@@ -3637,6 +3691,7 @@
 		</Placemark>
 		<Placemark>
 			<name>14.1</name>
+			<visibility>0</visibility>
 			<Camera>
 				<longitude>-72.64893001865842</longitude>
 				<latitude>-38.89936764263789</latitude>
